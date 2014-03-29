@@ -24,10 +24,9 @@ module.exports = (grunt) ->
         options:
           templateBasePath: /app\/templates\//
         files:
-          'app/templates.js': 'app/templates/*.hbs'
+          'app/templates.js': 'app/templates/**/*.hbs'
 
-
-
+    clean: ['app/templates.js']
 
   require('load-grunt-tasks')(grunt)
 
@@ -35,6 +34,7 @@ module.exports = (grunt) ->
     'bower',
     'concat',
     'emberTemplates',
-    'browserify'
+    'browserify',
+    'clean'
   ]
   return
