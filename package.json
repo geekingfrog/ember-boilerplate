@@ -1,0 +1,15 @@
+{
+  "name": "ember-boilerplate",
+  "version": "0.0.0",
+  "description": "repo to clone to get the boilerplate out of the way",
+  "author": "greg@geekingfrog",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "load-grunt-config": "^0.8.0-beta.1",
+    "grunt-bower-task": "^0.3.4"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^0.4.0"
+  }
+}
