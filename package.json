@@ -14,15 +14,14 @@
     "grunt-ember-templates": "^0.4.20",
     "browserify": "^3.37.1",
     "grunt-browserify": "^2.0.1",
-    "grunt-contrib-clean": "^0.5.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-contrib-livereload": "^0.1.2",
     "connect-livereload": "^0.3.2",
     "connect-static": "^1.1.1",
     "grunt-contrib-connect": "^0.7.1",
-    "grunt-open": "^0.2.3"
-  },
-  "dependencies": {
-    "load-grunt-tasks": "^0.4.0"
+    "grunt-open": "^0.2.3",
+    "grunt-contrib-jade": "^0.11.0",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-contrib-uglify": "^0.4.0"
   }
 }
